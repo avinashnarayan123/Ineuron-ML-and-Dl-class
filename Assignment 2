@@ -8,4 +8,26 @@ Output --           suppose we enter the word hello then our output should be --
 
 Q2. Create the below pattern using nested for loop in Python.
 
-sol--    
+sol--       rows = int(input("Enter the number of rows: "))  
+            for i in range(0, rows):  
+                        for j in range(0, i + 1):  
+                             print("*", end=' ')    
+                        print(" ")  
+            for i in range(rows,0,-1):  
+                        for j in range(0, i - 1):  
+                            print("*", end=' ')  
+                        print(" ")  
+                        
+                        
+                        
+Output---               Enter the number of rows: 5
+                        
+*  
+* *  
+* * *  
+* * * *  
+* * * * *  
+* * * *  
+* * *  
+* *  
+*  
