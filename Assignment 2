@@ -1,1 +1,11 @@
+Q1.  Write a Python program to reverse a word after accepting the input from the user.
 
+sol----     word = input("Enter a word you want to reverse :")
+            print(word[::-1])   
+
+Output --           suppose we enter the word hello then our output should be ---- "olleh"
+
+
+Q2. Create the below pattern using nested for loop in Python.
+
+sol--    
